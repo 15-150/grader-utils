@@ -1,2 +1,2 @@
 # grader-utils
-GRADER_UTILS structure
+`GRADER_UTILS` structure
