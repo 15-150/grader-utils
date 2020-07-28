@@ -56,4 +56,6 @@ structure ListUtils =
               merge(cmp, msort cmp A, msort cmp B)
             end
     end
+
+    val listToString = ListFormat.listToString
   end
