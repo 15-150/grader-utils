@@ -13,7 +13,7 @@ structure GRADER_UTILS =
           >>= (fn (SOME n1,SOME n2) => SOME (n1,n2) | _ => NONE)
     in
       structure Random =
-        MkUtils (
+        MkRandomUtils (
           val seed = (
             case seedOpt of
               NONE      => raise Fail "GRADER_UTILS_SEED not defined"

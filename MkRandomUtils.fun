@@ -1,4 +1,4 @@
-functor MkUtils (val seed : int * int) =
+functor MkRandomUtils (val seed : int * int) =
   struct
     val RAND = Random.rand seed  (* mutable *)
 
